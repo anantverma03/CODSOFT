@@ -1,0 +1,158 @@
+body{
+    font-family: sans-serif ,'Arial';
+   margin: 0;
+   padding: 0px;
+    background-color:  #f4f8fb;
+    background-image: url(./images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    background-image: url(./images\ \(1\).jpeg);
+    padding: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+h1{
+    color: white;
+    font-size:60px ;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    background-image: url(./images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    padding: 5px 40px;
+    cursor: pointer;
+    transition: transform 0.25s;
+    
+}
+h1:hover{
+    transform: scale(1.2);
+    
+}
+header p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Platypi", serif;
+    cursor: pointer;
+
+    
+}
+.btn1{
+    background-image: url(./images.jpeg);
+    font-family: serif;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.45s;
+    cursor: pointer;
+}
+.btn1:hover{
+    transform: scale(1.4);
+}
+main{
+    display: inline;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+
+
+}
+div{
+    text-align: center;
+    margin: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 30px;
+    transition: transform 0.3s ,
+    box-shadow 0.3s ;
+
+    
+}
+div:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+h2{
+    font-size: 25px;
+}
+div >p{
+    color: gray;
+
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+img{
+    height: 50px;
+    
+}
+li{
+    display: flex;
+    color: white;
+    margin-left: 400px;
+    margin-right: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    cursor: pointer;
+}
+
+
+.nav-cont{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #007BFF;
+    background-image: url(./sky.jpg);
+}
+nav{
+    
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.main-icon{
+    margin-right: 450px;
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.15s;
+    
+}
+.main-icon:hover{
+    transform: scale(1.4);;
+}
+
+.feature{
+    background-image: url(./images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feature p{
+ color: white;
+ font-weight: medium;
+ cursor: pointer;
+
+}
